@@ -1,0 +1,8 @@
+CREATE TABLE Estudiante (
+  Nombre VARCHAR(255) NOT NULL,
+  Email VARCHAR(255) NOT NULL UNIQUE,
+  Promocion VARCHAR(255) NOT NULL,
+  FechaComienzo DATE NOT NULL,
+  Campus VARCHAR(255) NOT NULL,
+  PRIMARY KEY (Campus)
+);
